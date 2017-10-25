@@ -15,7 +15,7 @@
             {
                 "label": "Pop Theme",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Pop Theme-color-theme.json"
+                "path": "./poptheme/themes/Pop Theme-color-theme.json"
             }
         ]
     },
