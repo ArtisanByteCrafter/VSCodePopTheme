@@ -1,4 +1,7 @@
 # Pop! Theme for VSCode
+
+[![Version](https://vsmarketplacebadge.apphb.com/version/ArtisanByteCrafter.poptheme.svg)](https://marketplace.visualstudio.com/items?itemName=ArtisanByteCrafter.poptheme) [![Installs](https://vsmarketplacebadge.apphb.com/installs/ArtisanByteCrafter.poptheme.svg)](https://marketplace.visualstudio.com/items?itemName=ArtisanByteCrafter.poptheme) [![Ratings](https://vsmarketplacebadge.apphb.com/rating/ArtisanByteCrafter.poptheme.svg)](https://marketplace.visualstudio.com/items?itemName=ArtisanByteCrafter.poptheme) [![GitHub stars](https://img.shields.io/github/stars/artvandelay440/VSCodePopTheme.svg?style=social&label=Star&maxAge=2592000)](https://github.com/artvandelay440/VSCodePopTheme)
+
 ## Source and Inspiration
 This theme is based on the design language created and maintained by [System76](https://system76.com/) for their [Pop!_OS](https://system76.com/pop) and themes. I am not affiliated in any way other than being a big fan.
 

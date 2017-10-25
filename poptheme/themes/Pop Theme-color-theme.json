@@ -12,6 +12,7 @@
 		"list.activeSelectionBackground": "#ffa41a44",
 		"statusBar.background": "#009688",
 		"statusBar.foreground": "#ebffff",
+		"statusBar.border": "#00000000",
 		"button.background": "#009688",
 		"statusBar.noFolderBackground": "#607D8B",
 		"textLink.foreground": "#faa41a",
