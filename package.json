@@ -18,5 +18,10 @@
                 "path": "./themes/Pop Theme-color-theme.json"
             }
         ]
-    }
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/artvandelay440/VSCodePopTheme.git"
+    },
+    "homepage": "https://github.com/artvandelay440/VSCodePopTheme/blob/master/README.md"
 }

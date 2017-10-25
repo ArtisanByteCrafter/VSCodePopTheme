@@ -1,11 +1,11 @@
 # Pop! Theme for VSCode
 ## Source and Inspiration
-This theme is based on the design language created and maintained by [System76](https://system76.com/) for their [Pop!OS](https://system76.com/pop) and themes. I am not affiliated in any way other than being a big fan.
+This theme is based on the design language created and maintained by [System76](https://system76.com/) for their [Pop!_OS](https://system76.com/pop) and themes. I am not affiliated in any way other than being a big fan.
 
 
 ## Screenshots
 
-![GitHub Logo](/poptheme/Assets/Theme.png)
+![GitHub Logo](./poptheme/Assets/Theme.png)
 
 ## Build and debug from source
 It is possible to build and run this theme from source in a debugging context. This outline is for Ubuntu-based distributions.
