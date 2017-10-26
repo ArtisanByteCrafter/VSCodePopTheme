@@ -8,7 +8,7 @@ This theme is based on the design language created and maintained by [System76](
 
 ## Screenshots
 
-![Theme](./poptheme/Assets/Theme.png)
+![Theme](./poptheme/Assets/theme.png)
 
 ## Build and debug from source
 It is possible to build and run this theme from source in a debugging context. This outline is for Ubuntu-based distributions.
