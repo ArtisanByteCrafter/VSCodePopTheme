@@ -14,9 +14,14 @@
     "contributes": {
         "themes": [
             {
-                "label": "Pop Theme",
+                "label": "Pop Dark",
                 "uiTheme": "vs-dark",
-                "path": "./poptheme/themes/Pop Theme-color-theme.json"
+                "path": "./poptheme/themes/Pop-Dark.json"
+            },
+            {
+                "label": "Pop Light",
+                "uiTheme": "vs",
+                "path": "./poptheme/themes/Pop-Light.json"
             }
         ]
     },
