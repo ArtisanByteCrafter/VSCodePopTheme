@@ -26,9 +26,9 @@
                 "badge.background": "#48b9c7",
                 "progressBar.background": "#faa41a",
         
-                "dropdown.background": "#d3d0d0",
+                "dropdown.background": "#73c48f",
                 // "dropdown.foreground": "",
-                "dropdown.border": "#574e4a",
+                "dropdown.border": "#63524b00",
         
                 "button.background": "#48b9c7",
                 // "button.foreground": "",
@@ -49,12 +49,13 @@
                 // "scrollbarSlider.hoverBackground": "",
 
 				
+				
                 // Editor
-                "editor.background": "#e0dcdc",
+                "editor.background": "#f7f7f7",
                 // "editor.foreground": "#6688cc",
                 "editorWidget.background": "#d3d0d0",
                 "editorCursor.foreground": "#657B83",
-                "editorWhitespace.foreground": "#574e4a80",
+                "editorWhitespace.foreground": "#a58e6454",
                 "editor.lineHighlightBackground": "#d3d0d0",
                 "editor.selectionBackground": "#d3d0d0",
                 // "editorIndentGuide.background": "",
@@ -133,10 +134,10 @@
                 "activityBarBadge.foreground": "#4d4643",
         
                 // Workbench: Panel
-                // "panel.background": "",
+                "panel.background": "#eeeeee",
                 "panel.border": "#bbb5b3",
                 // "panelTitle.activeBorder": "",
-                // "panelTitle.activeForeground": "",
+                "panelTitle.activeForeground": "#5c411b",
                 // "panelTitle.inactiveForeground": "",
         
                 // Workbench: Side Bar
@@ -163,8 +164,9 @@
                 "debugExceptionWidget.border": "#AB395B",
         
                 // Workbench: Notifications
-				"notification.background": "#9d9794",
+				"notification.background": "#bebebe",
 				"notification.infoBackground": "#48b9c7",
+				"notification.infoForeground": "#ffffff",
 				"notification.buttonBackground": "#48b9c7",
 				"notification.warningBackground": "#bebebe",
                 "notification.foreground": "#383838",
@@ -176,7 +178,7 @@
                 // Extensions
                 "extensionButton.prominentBackground": "#faa41a",
                 "extensionButton.prominentHoverBackground": "#584c27aa",
-        
+		
                 // Workbench: Terminal
         
                 "terminal.ansiBlack": "#073642",
@@ -222,7 +224,7 @@
 			"name": "String",
 			"scope": "string",
 			"settings": {
-				"foreground": "#2AA198"
+				"foreground": "#175541"
 			}
 		},
 		{
@@ -253,14 +255,13 @@
 			"name": "Keyword",
 			"scope": "keyword",
 			"settings": {
-				"foreground": "#488d5e"
+				"foreground": "#b94c4c"
 			}
 		},
 		{
 			"name": "Storage",
 			"scope": "storage",
 			"settings": {
-				"fontStyle": "bold",
 				"foreground": "#073642"
 			}
 		},
@@ -275,17 +276,21 @@
 			}
 		},
 		{
-			"name": "Function name",
-			"scope": "entity.name.function",
+			"name": "Functions",
+			"scope": [
+				"entity.name.function",
+				"support.function"
+			],
 			"settings": {
-				"foreground": "#607D8B"
+				"fontStyle": "bold",
+				"foreground": "#5e4825"
 			}
 		},
 		{
 			"name": "Variable start",
 			"scope": "punctuation.definition.variable",
 			"settings": {
-				"foreground": "#488d5e"
+				"foreground": "#34a357"
 			}
 		},
 		{
@@ -305,7 +310,7 @@
 				"meta.preprocessor"
 			],
 			"settings": {
-				"foreground": "#faa41a"
+				"foreground": "#d37f00"
 			}
 		},
 		{
@@ -352,21 +357,21 @@
 				"punctuation.definition.tag.end"
 			],
 			"settings": {
-				"foreground": "#93A1A1"
+				"foreground": "#376161"
 			}
 		},
 		{
 			"name": "Tag attribute",
 			"scope": "entity.other.attribute-name",
 			"settings": {
-				"foreground": "#93A1A1"
+				"foreground": "#439b9b"
 			}
 		},
 		{
 			"name": "Library function",
 			"scope": "support.function",
 			"settings": {
-				"foreground": "#607D8B"
+				"foreground": "#376161"
 			}
 		},
 		{
@@ -388,7 +393,7 @@
 				"support.class"
 			],
 			"settings": {
-				"foreground": "#488d5e"
+				"foreground": "#6e8b34"
 			}
 		},
 		{
