@@ -2,7 +2,7 @@
     "name": "poptheme",
     "displayName": "Pop Theme",
     "description": "A VSCode theme based on the design language of @System76's Pop! Theme.",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "publisher": "ArtisanByteCrafter",
     "engines": {
         "vscode": "^1.10.0"
@@ -29,5 +29,12 @@
         "type": "git",
         "url": "https://github.com/artvandelay440/VSCodePopTheme.git"
     },
+    "keywords": [
+		"Vscode",
+		"Theme",
+        "dark",
+        "light",
+        "pop"
+	],
     "homepage": "https://github.com/artvandelay440/VSCodePopTheme/blob/master/README.md"
 }

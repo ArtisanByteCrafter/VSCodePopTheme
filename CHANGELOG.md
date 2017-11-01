@@ -1,4 +1,7 @@
 # Changelog
+## v 0.0.6
+* Updated Light theme editor and fixed several unthemed elements.
+
 ## v 0.0.5
 * Implimented new Light Theme Option - Press `Ctrl + K, Ctrl + T` and select `Pop Light`
 * Original Pop Theme is now `Pop Dark` when selecting your theme
