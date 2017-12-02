@@ -12,6 +12,7 @@
 		"list.hoverBackground": "#009688",
 		"list.activeSelectionBackground": "#ffa41a44",
 		"list.focusBackground": "#009688",
+		"list.highlightForeground": "#faa41a",
 		"statusBar.background": "#009688",
 		"statusBar.foreground": "#ebffff",
 		"statusBar.border": "#00000000",
@@ -45,7 +46,12 @@
 		"dropdown.background": "#383737",
 		"dropdown.foreground": "#bebebe",
 		"focusBorder": "#00000000",
-		"tab.inactiveBackground": "#00000000"
+		"tab.inactiveBackground": "#00000000",
+		//"gitDecoration.conflictingResourceForeground": "#ff0000",
+		//"gitDecoration.deletedResourceForeground": "#ff0000",
+		//"gitDecoration.ignoredResourceForeground": "#ff0000",
+		"gitDecoration.modifiedResourceForeground": "#ffa41a"
+		//"gitDecoration.untrackedResourceForeground": "#ff0000"
 		
 		
 	},

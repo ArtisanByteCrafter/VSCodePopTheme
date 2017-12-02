@@ -1,4 +1,8 @@
 # Changelog
+## v 0.0.7
+* Fixed Issue in Pop Dark Theme with readability and intellisense suggestions [Issue #1](https://github.com/artvandelay440/VSCodePopTheme/issues/1)
+* Initial theming support for new git decorations.
+
 ## v 0.0.6
 * Updated Light theme editor and fixed several unthemed elements.
 
