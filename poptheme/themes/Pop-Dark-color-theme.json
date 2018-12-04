@@ -14,7 +14,7 @@
         "textLink.activeForeground": "#FFCA40",
         "input.background": "#2B2928",
         "input.border": "#0008",
-        "input.foreground": "#DEDEDE",
+        "input.foreground": "#c45555",
         "input.placeholderForeground": "#DEDEDE88",
         "inputOption.activeBorder": "#FAA41A",
         // "inputValidation.infoBorder": "",
@@ -198,7 +198,6 @@
         "terminal.ansiBrightMagenta": "#6c71c4",
         "terminal.ansiBrightCyan": "#93a1a1",
         "terminal.ansiBrightWhite": "#d3d0d0"
-	}
 	},
 	"tokenColors": [
 		{
