@@ -87,11 +87,11 @@
         // "editorSuggestWidget.selectedBackground": "",
 
         // Editor: Peek View
-        "peekViewResult.background": "#d3d0d0",
+        "peekViewResult.background": "#2B2928",
         // "peekViewResult.lineForeground": "",
         // "peekViewResult.selectionBackground": "",
         // "peekViewResult.selectionForeground": "",
-        "peekViewEditor.background": "#FFFBF2",
+        "peekViewEditor.background": "#3F3B39",
         "peekViewTitle.background": "#d3d0d0",
         "peekView.border": "#faa41a",
         "peekViewEditor.matchHighlightBackground": "#7744AA40",
