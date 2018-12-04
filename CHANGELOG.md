@@ -1,6 +1,9 @@
 # Changelog
+## v 0.0.9
+* Theming updates for Pop! OS Theme (thanks @isantop) [pull request](https://github.com/artvandelay440/VSCodePopTheme/pull/2)
+
 ## v 0.0.8
-*Slight theming updates in Pop Dark to reflect design choices made in upstream Pop! Theme
+* Slight theming updates in Pop Dark to reflect design choices made in upstream Pop! Theme
 
 ## v 0.0.7
 * Fixed Issue in Pop Dark Theme with readability and intellisense suggestions [Issue #1](https://github.com/artvandelay440/VSCodePopTheme/issues/1)
