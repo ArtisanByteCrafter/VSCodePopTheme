@@ -24,6 +24,8 @@
                 // "inputValidation.errorBorder": "",
 
                 "badge.background": "#F15D22",
+                "badge.foreground": "#FFF",
+                bad
                 "progressBar.background": "#48B9C7",
 
                 "dropdown.background": "#F6F6F6",
@@ -53,7 +55,7 @@
                 // Editor
                 "editor.background": "#FFF",
                 "editor.foreground": "#403C3A",
-                "editorWidget.background": "#2B2928",
+                "editorWidget.background": "#DEDEDE",
                 "editorCursor.foreground": "#2B2928",
                 "editorWhitespace.foreground": "#DEDEDE11",
                 "editor.lineHighlightBackground": "#EDEDED",
