@@ -1,6 +1,12 @@
 # Changelog
+
+## v 1.0
+
+* New Pop Color theme! Very similar to Pop Light, but with status and menu bars to match Pop! OS stylings. (thanks to @isantop) [Github PR](https://github.com/artvandelay440/VSCodePopTheme/pull/3)
+  * Themes now available are Pop Light, Pop Dark and Pop Color.
+
 ## v 0.0.9
-* Theming updates for Pop! OS Theme (thanks @isantop) [pull request](https://github.com/artvandelay440/VSCodePopTheme/pull/2)
+* Theming updates for Pop! OS Theme (thanks to @isantop) [Github PR](https://github.com/artvandelay440/VSCodePopTheme/pull/2)
 
 ## v 0.0.8
 * Slight theming updates in Pop Dark to reflect design choices made in upstream Pop! Theme
