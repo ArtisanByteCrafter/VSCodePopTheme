@@ -150,11 +150,11 @@
                 "sideBarSectionHeader.foreground": "#403C3A",
 
                 // Workbench: Status Bar
-                "statusBar.foreground": "#403C3A",
-                "statusBar.background": "#F6F6F6",
+                "statusBar.foreground": "#F6F6F6",
+                "statusBar.background": "#403C3A",
                 "statusBar.debuggingBackground": "#d3d0d0",
-                "statusBar.noFolderBackground": "#00616F",
-                "statusBarItem.prominentBackground": "#00616F",
+                "statusBar.noFolderBackground": "#403C3A",
+                "statusBarItem.prominentBackground": "#403C3A",
                 "statusBarItem.prominentHoverBackground": "#DEDEDE22",
                 // "statusBarItem.activeBackground": "",
                 // "statusBarItem.hoverBackground": "",
