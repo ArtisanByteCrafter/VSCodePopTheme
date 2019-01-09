@@ -247,14 +247,20 @@
 			}
 		},
 		{
-			"name": "Keyword, Storage",
+			"name": "Keyword",
 			"scope": [
-				"keyword",
-				"storage.type",
-				"storage.modifier"
+				"keyword"
 			],
 			"settings": {
 				"foreground": "#ffc977"
+			}
+		},
+		{
+			"name": "Storage type",
+			"scope": "storage.type",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#89DDFF"
 			}
 		},
 		{
