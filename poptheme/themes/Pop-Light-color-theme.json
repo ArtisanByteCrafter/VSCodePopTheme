@@ -131,7 +131,9 @@
         "activityBar.foreground": "#403C3A",
         "activityBar.dropBackground": "#d3d0d0",
         "activityBarBadge.background": "#CF3B00",
-        "activityBarBadge.foreground": "#FFF",
+		"activityBarBadge.foreground": "#FFF",
+		"activityBar.activeBorder":"#FAA41A",
+		"activityBar.activeBackground":"#d4c9c5",
 
         // Workbench: Panel
         "panel.background": "#E6E6E6",

@@ -92,7 +92,7 @@
         // "peekViewResult.selectionBackground": "",
         // "peekViewResult.selectionForeground": "",
         "peekViewEditor.background": "#3F3B39",
-        "peekViewTitle.background": "#d3d0d0",
+        "peekViewTitle.background": "#393634",
         "peekView.border": "#faa41a",
         "peekViewEditor.matchHighlightBackground": "#7744AA40",
         // "peekViewResult.fileForeground": "",
@@ -132,7 +132,9 @@
         "activityBar.foreground": "#fdf6e3",
         "activityBar.dropBackground": "#d3d0d0",
         "activityBarBadge.background": "#faa41a",
-        "activityBarBadge.foreground": "#4d4643",
+		"activityBarBadge.foreground": "#4d4643",
+		"activityBar.activeBorder":"#FAA41A",
+		"activityBar.activeBackground":"#383534",
 
         // Workbench: Panel
         "panel.background": "#33302F",
