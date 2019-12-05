@@ -32,7 +32,7 @@
                 "dropdown.border": "#63524b00",
 
                 "button.background": "#F6F6F6",
-                // "button.foreground": "",
+                "button.foreground": "#403C3A",
 
                 "selection.background": "#1C8D9B",
 

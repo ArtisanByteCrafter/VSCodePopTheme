@@ -31,7 +31,7 @@
          "dropdown.border": "#63524b00",
 
          "button.background": "#F6F6F6",
-        // "button.foreground": "",
+         "button.foreground": "#403C3A",
 
          "selection.background": "#1C8D9B",
 
@@ -198,7 +198,9 @@
         "terminal.ansiBrightBlue": "#839496",
         "terminal.ansiBrightMagenta": "#6c71c4",
         "terminal.ansiBrightCyan": "#93a1a1",
-        "terminal.ansiBrightWhite": "#d3d0d0"
+		"terminal.ansiBrightWhite": "#d3d0d0"
+		
+		
             },
 	"tokenColors": [
 		{
