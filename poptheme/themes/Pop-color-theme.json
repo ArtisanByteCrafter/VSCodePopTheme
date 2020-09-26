@@ -154,7 +154,7 @@
                 // Workbench: Status Bar
                 "statusBar.foreground": "#F6F6F6",
                 "statusBar.background": "#403C3A",
-                "statusBar.debuggingBackground": "#d3d0d0",
+                "statusBar.debuggingBackground": "#AC1800",
                 "statusBar.noFolderBackground": "#403C3A",
                 "statusBarItem.prominentBackground": "#403C3A",
                 "statusBarItem.prominentHoverBackground": "#DEDEDE22",
@@ -162,7 +162,7 @@
                 // "statusBarItem.hoverBackground": "",
 
                 // Workbench: Debug
-                "debugToolBar.background": "#FF9459",
+                "debugToolBar.background": "#393634",
                 "debugExceptionWidget.background": "#DEDEDE",
                 "debugExceptionWidget.border": "#FF793E",
 
