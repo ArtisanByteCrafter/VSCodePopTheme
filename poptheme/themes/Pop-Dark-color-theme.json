@@ -153,8 +153,9 @@
 
         // Workbench: Status Bar
         "statusBar.foreground": "#DEDEDE",
-        "statusBar.background": "#2B2928",
-        "statusBar.debuggingBackground": "#d3d0d0",
+		"statusBar.background": "#2B2928",
+		"statusBar.debuggingBackground": "#00616F",
+        "statusBar.debuggingForeground": "#FF9459",
         "statusBar.noFolderBackground": "#403C3A",
         "statusBarItem.prominentBackground": "#403C3A",
         "statusBarItem.prominentHoverBackground": "#DEDEDE22",
@@ -162,9 +163,9 @@
         // "statusBarItem.hoverBackground": "",
 
         // Workbench: Debug
-        "debugToolBar.background": "#AC1800",
+        "debugToolBar.background": "#00616F",
         "debugExceptionWidget.background": "#393634",
-        "debugExceptionWidget.border": "#AB395B",
+		"debugExceptionWidget.border": "#AB395B",
 
         // Workbench: Notifications
         "notification.background": "#bebebe",
@@ -183,7 +184,6 @@
         "extensionButton.prominentHoverBackground": "#584c27aa",
 
         // Workbench: Terminal
-
         "terminal.ansiBlack": "#111",
         "terminal.ansiRed": "#F15D22",
         "terminal.ansiGreen": "#73C48F",
