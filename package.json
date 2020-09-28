@@ -22,11 +22,6 @@
                 "label": "Pop Light",
                 "uiTheme": "vs",
                 "path": "./poptheme/themes/Pop-Light-color-theme.json"
-            },
-            {
-                "label": "Pop Color",
-                "uiTheme": "vs",
-                "path": "./poptheme/themes/Pop-color-theme.json"
             }
         ]
     },
