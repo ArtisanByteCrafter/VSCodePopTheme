@@ -1,6 +1,10 @@
 # Pop! Theme for VSCode
 
-[![Version](https://vsmarketplacebadge.apphb.com/version/ArtisanByteCrafter.poptheme.svg)](https://marketplace.visualstudio.com/items?itemName=ArtisanByteCrafter.poptheme) [![Installs](https://vsmarketplacebadge.apphb.com/installs/ArtisanByteCrafter.poptheme.svg)](https://marketplace.visualstudio.com/items?itemName=ArtisanByteCrafter.poptheme) [![Ratings](https://vsmarketplacebadge.apphb.com/rating/ArtisanByteCrafter.poptheme.svg)](https://marketplace.visualstudio.com/items?itemName=ArtisanByteCrafter.poptheme) [![GitHub stars](https://img.shields.io/github/stars/artvandelay440/VSCodePopTheme.svg?style=social&label=Star&maxAge=2592000)](https://github.com/artvandelay440/VSCodePopTheme)
+[![VS Marketplace Version](https://vsmarketplacebadge.apphb.com/version/ArtisanByteCrafter.poptheme.svg)](https://marketplace.visualstudio.com/items?itemName=ArtisanByteCrafter.poptheme) [![VS Marketplace Installs](https://vsmarketplacebadge.apphb.com/installs/ArtisanByteCrafter.poptheme.svg)](https://marketplace.visualstudio.com/items?itemName=ArtisanByteCrafter.poptheme) [![VS Marketplace Ratings](https://vsmarketplacebadge.apphb.com/rating/ArtisanByteCrafter.poptheme.svg)](https://marketplace.visualstudio.com/items?itemName=ArtisanByteCrafter.poptheme) [![GitHub stars](https://img.shields.io/github/stars/artvandelay440/VSCodePopTheme.svg?style=social&label=Star&maxAge=2592000)](https://github.com/artvandelay440/VSCodePopTheme)
+
+[![Open VSX Version](https://img.shields.io/open-vsx/v/ArtisanByteCrafter/poptheme?color=C160EF&label=Open%20VSX)](https://open-vsx.org/extension/ArtisanByteCrafter/poptheme)
+[![Open VSX Installs](https://img.shields.io/open-vsx/dt/ArtisanByteCrafter/poptheme?color=C160EF&label=installs)](https://open-vsx.org/extension/ArtisanByteCrafter/poptheme)
+[![Open VSX Ratings](https://img.shields.io/open-vsx/rating/ArtisanByteCrafter/poptheme?color=C160EF)](https://open-vsx.org/extension/ArtisanByteCrafter/poptheme)
 
 ## Source and Inspiration
 This theme is based on the design language created and maintained by [System76](https://system76.com/) for their [Pop!_OS](https://system76.com/pop) and themes. I am not affiliated in any way other than being a big fan.
