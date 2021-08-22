@@ -1,0 +1,103 @@
+# Syncs from upstream and deploys latest to Open-VSX
+
+name: CI/CD to Open-VSX
+
+# Run once a month
+on:
+  schedule:
+  - cron: '0 0 1 * *'
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  fetch-and-build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v1
+      with:
+        node-version: 12
+  
+    - name: Rebase Upstream
+      # You may pin to the exact commit or the version.
+      # uses: imba-tjd/rebase-upstream-action@3727d50bfd7062fb794dcb81268451bdbe9ff5c0
+      uses: imba-tjd/rebase-upstream-action@0.5
+      with:
+        # <user>/<repo> or the full HTTP URL
+        upstream: ArtisanByteCrafter/VSCodePopTheme
+        # The upstream branch that is rebased on
+        branch: master
+        # Greater than the number of commits the upstream made in a period
+        depth: 100
+        # Do the force push in this action
+        push: true
+        
+    - name: Publish VS Code Extension
+      # You may pin to the exact commit or the version.
+      # uses: HaaLeo/publish-vscode-extension@aae4c55fd9e724685834ff0a9488ad57c8f3ecf1
+      uses: HaaLeo/publish-vscode-extension@v0
+      with:
+        # Personal access token
+        pat: ${{ secrets.OPEN_VSX_TOKEN }}
+        # Path to the vsix file to be published. Cannot be used together with packagePath.
+        #extensionFile: # optional
+        # Use the registry API at this base URL
+        #registryUrl: # optional, default is https://open-vsx.org
+        # Path to the extension to be packaged and published. Cannot be used together with extensionFile.
+        #packagePath: ./
+        # Prepend all relative links in README.md with this URL.
+        #baseContentUrl: # optional
+        # Prepend all relative image links in README.md with this URL.
+        #baseImagesUrl: # optional
+        # Use yarn instead of npm while packing extension files.
+        #yarn: # optional
+        # Set this option to "true" to package your extension but do not publish it.
+        dryRun: true
+        # Allow publishing extensions to the visual studio marketplace which use a proposed API (enableProposedApi: true).
+        #noVerify: # optional
+  
+#     - name: Merge Upstream
+#       # You may pin to the exact commit or the version.
+#       # uses: exions/merge-upstream@f319e34ccad113d4f524e9ca33f5dab14b51117c
+#       uses: exions/merge-upstream@v1
+#       with:
+#         # Upstream repository owner/name. For example, exions/merge-upstream
+#         upstream: ArtisanByteCrafter/VSCodePopTheme
+#         # Upstream branch to merge from. For example, master
+#         upstream-branch: master
+#         # Branch to merge to. For example, master
+#         branch: master
+#         # Personal access token (PAT) used to fetch the repository. The PAT is configured with the local git config, which enables your scripts to run authenticated git commands. The post-job step removes the PAT. We recommend using a service account with the least permissions necessary. Also when generating a new PAT, select the least scopes necessary. [Learn more about creating and using encrypted secrets](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/creating-and-using-encrypted-secrets)
+#         token: ${{ github.token }}
+  
+    - name: Fetch latest changes from upstream
+      run: echo Hello, world!
+  
+#     - name: Upstream Sync
+#     # You may pin to the exact commit or the version.
+#       uses: aormsby/Fork-Sync-With-Upstream-action@v3.0
+#       with:
+#         # Branch receiving updates from the upstream repo, e.g. => main, master, prod
+#         target_sync_branch: master
+#         # Upstream repository, e.g. => aormsby/Fork-Sync-With-Upstream-action
+#         upstream_sync_repo: ArtisanByteCrafter/VSCodePopTheme
+#         # Branch to sync from, e.g. => main, master, dev
+#         upstream_sync_branch: master
+#         # Git args passed when running `git push` to apply changes to the source repo, e.g. --force :: default = ""
+#         target_branch_push_args: # optional, default is 
+
+#         - name: Fetch latest changes from upstream
+#           run: echo Hello, world!
+
+#           # Runs a set of commands using the runners shell
+#         - name: Run a multi-line script
+#           run: |
+#               echo Add other actions to build,
+#               echo test, and deploy your project.
